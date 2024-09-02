@@ -27,8 +27,8 @@ void Ultimate::UpdateDigitalOutputs(InputState &inputs, OutputState &outputs) {
     outputs.start = inputs.start;
     outputs.select = inputs.select;
     if(inputs.home){
-        outputs.leftStickX = 128 + (directions.x * 53);
-        outputs.leftStickY = 128 + (directions.y * 35);
+        outputs.leftStickX = 128 + (directions.x * 41);
+        outputs.leftStickY = 128 + (directions.y * 41);
     }
 
     // Turn on D-Pad layer by holding Mod X + Mod Y or Nunchuk C button.
